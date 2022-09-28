@@ -61,11 +61,7 @@ preview: 0
 ### Category page
 If you want to add a page of category you have to create folder with name of category and file `index.html`, which should contain the following:  
 ```
----
-layout: default
-title: Category1
-permalink: /category1/ 
----
+
 
 {% include category.html %}
 ```
